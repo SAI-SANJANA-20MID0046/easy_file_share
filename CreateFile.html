@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CreateFile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="style_1.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<style>
+p
+{
+   font-family: "Times New Roman";
+   font-size: 20px;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+  <li><a href="Home_page.html">Home</a></li>
+  <li><a href="Register.html">Register</a></li>
+  <li><a href="Login.html">login</a></li>
+  <li><a href="CreateFile.html">Create</a></li>
+  <li><a href="ReadFile.html">Read</a></li>
+  <li><a href="ModifyFile.html">Modify</a></li>
+  <li><a href="DeleteFile.html">delete</a></li>
+  <li><a href="Pricing.html">pricing</a></li>
+  <li><a href="feedback.html">feedback</a></li>
+  <li><a href="LogOut.html">Log out </a></li>
+</ul>
+</nav>
+<h1>Create file </h1>
+<div class="mb-3">
+  <p>File Name <p>
+  <input type="text" class="form-control"  placeholder="File name">
+</div>
+<div class="mb-3">
+  <p> Description <p>
+  <textarea class="form-control"  rows="2" placeholder="description"></textarea>
+</div>
+<div class="mb-3">
+  <p>File type <p>
+  <input type="text" class="form-control"  placeholder=".pdf,.docx,.csv...">
+</div>
+<p>Specify the access permissions to the file </p>
+<div class="form-check"> 
+  <input class="form-check-input" type="radio" name="access" checked>
+   private
+</div>
+<div class="form-check"> 
+  <input class="form-check-input" type="radio" name="access" >
+   public
+</div>
+<br><br>
+<a href="success_file.html">
+<button type="button" class="btn btn-primary btn-lg">Create file</button><br>
+</a>
+</body>
+</html>
